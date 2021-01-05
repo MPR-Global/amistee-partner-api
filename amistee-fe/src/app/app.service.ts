@@ -7,7 +7,7 @@ import { Observable, of, Subject } from 'rxjs';
 @Injectable({ providedIn: 'root' })
 export class AppService {
 
-  private contactsUrl = '/dev/contacts';  // URL to web api
+  private contactsUrl = '/stage/contacts';  // URL to web api
   private subject = new Subject();
 
   httpOptions = {

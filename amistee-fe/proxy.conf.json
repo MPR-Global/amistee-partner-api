@@ -1,6 +1,6 @@
 {
-    "/dev/*": {
-        "target": "https://12lvwmmdt3.execute-api.us-east-1.amazonaws.com",
+    "/src/*": {
+        "target": "https://2ctch732c8.execute-api.us-east-1.amazonaws.com",
         "secure": true,
         "changeOrigin": true
     }

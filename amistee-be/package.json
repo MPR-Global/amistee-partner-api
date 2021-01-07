@@ -1,0 +1,18 @@
+{
+    "name": "amistee-sl",
+    "version": "1.0.0",
+    "description": "",
+    "main": "handler.js",
+    "dependencies": {
+        "serverless-dynamodb-local": "^0.2.39",
+        "serverless-offline": "^6.8.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "start": "sls offline start --port 4000",
+        "dynamodb:install": "sls dynamodb install --environment local --environment-instance local --customdomainname localhost",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Sanjay",
+    "license": "ISC"
+}

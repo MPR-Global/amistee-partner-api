@@ -1,0 +1,14 @@
+<div class="container-fluid mb-5">
+    <div class="row pt-3 pb-3">
+        <div class="col-12" align="center">
+            <h2 class="theme-color">Amistee Contact Mangement System</h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <ngx-datatable class="material" [columnMode]="'flex'" [selectionType]="'row'" (select)="onSelect($event)" [limit]="pageSize" [footerHeight]="50" [headerHeight]="50" [rowHeight]="'auto'" [rows]="rows" [columns]="columns"> </ngx-datatable>
+        </div>
+    </div>
+</div>
+<alert [type]="alert.type" [dismissible]="true" dismissOnTimeout="5000" *ngIf="displayAlert">{{ alert.message }}</alert>
+<ngx-spinner></ngx-spinner>

@@ -5,6 +5,7 @@
 @import '~@swimlane/ngx-datatable/themes/material.css';
 @import '~@swimlane/ngx-datatable/assets/icons.css';
 @import '~bootstrap/dist/css/bootstrap.css';
+@import '~ngx-bootstrap/datepicker/bs-datepicker.css';
 html {
     overflow: auto;
 }
@@ -56,6 +57,14 @@ body .overlay {
 .ngx-datatable .datatable-body .datatable-body-row {
     cursor: pointer;
     border-bottom: 1px solid lightgray;
+}
+
+.ngx-datatable.cm02 .datatable-body .datatable-body-row {
+    cursor: auto !important;
+}
+
+.ngx-datatable.cm02 .datatable-body .datatable-body-row.active {
+    background-color: none;
 }
 
 .ngx-datatable .datatable-body .datatable-body-row.active {

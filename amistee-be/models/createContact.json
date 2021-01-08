@@ -21,7 +21,8 @@
                 "message": { "type": "string" },
                 "date": { "type": "string" },
                 "time": { "type": "string" },
-                "fromSource": { "type": "string" }
+                "fromSource": { "type": "string" },
+                "source": { "type": "string" }
             },
             "required": ["name", "email", "phone"],
             "additionalProperties": false

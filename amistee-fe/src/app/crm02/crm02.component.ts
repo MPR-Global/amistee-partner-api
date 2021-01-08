@@ -70,6 +70,11 @@ export class Crm02Component {
         flexGrow: 1
       },
       { 
+        name: 'Source',
+        prop: 'source',
+        flexGrow: 0.5
+      },
+      { 
         name: 'Notes',
         prop: 'notes',
         flexGrow: 2

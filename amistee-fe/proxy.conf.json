@@ -1,7 +1,0 @@
-{
-    "/stage/*": {
-        "target": "https://2ctch732c8.execute-api.us-east-1.amazonaws.com",
-        "secure": true,
-        "changeOrigin": true
-    }
-}
